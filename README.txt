@@ -1,5 +1,4 @@
-# Text Classification Project README
-
+# Form Classification Project README
 This repository contains a text classification project that involves data preparation, model training, and prediction using machine learning and deep learning techniques. The project includes the following components:
 
 1. `data_extraction.py`: A script for preparing and downloading data from the U.S. Securities and Exchange Commission (SEC) website, extracting images from PDFs, and performing OCR to extract text data.
@@ -36,6 +35,7 @@ Before running any of the scripts or the FastAPI application, ensure you have th
 5. For `main.py`:
     - Ensure you have the `prediction.py` script and a pre-trained model in the "model_&_encoder" directory.
     - Run the FastAPI application using `uvicorn main:app --reload`. It will serve as an API endpoint for text classification predictions.
+    - We need to you form body and upload the PDF file here with name it as file
 
 ## Customization
 You can customize the scripts by modifying variables in the code to fit your specific use case.
